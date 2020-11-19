@@ -1,0 +1,467 @@
+*{
+   
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px ;
+
+    
+    
+}
+.zero
+{
+   
+     text-align: center;
+     margin-top: 12px;
+}
+.zero1
+{
+    text-align: left;
+    color: #4d2800;
+}
+.d
+{
+    
+    text-align: center;
+}
+
+.s
+{
+ 
+  padding: 20px;
+  margin-right: 20px;
+}
+.f
+{
+
+ padding: 20px;
+ margin-right: 20px;
+}
+.g
+{
+ 
+  padding: 20px;
+  margin-right: 20px;
+}
+.h
+{
+
+
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.uno
+{
+    
+    text-align: left;
+    background:#63401d;
+    text-align: left;
+    padding: 50px;
+}
+.dos
+{
+    
+    background: #2f3640;
+    background-color:#f7e2ae;
+    color: black;
+    text-align: left;
+    padding: 31px;
+
+    
+    margin-left:400px;
+   
+}
+.dos li
+{
+    
+    color:#f7e2ae;
+    list-style: none;
+    display: inline-block;
+    color: black;
+
+}
+
+.dos a:hover
+{
+    
+    
+    padding: 35px;
+    margin: 1px;
+    color: white;
+}
+
+a
+{
+   
+ color: white;
+ padding: 6px;
+}
+.cuatro
+{
+    
+    margin-top: 20px;
+}
+.cinco
+{
+    float: right;
+    padding: 20px;
+}
+
+#pie
+{
+    text-align: center;
+    background: #aaa69d;
+    padding: 10px;
+    clear: both;
+    background-color: #aaa69d;
+    float:center;
+    margin-left: 29px;
+    margin-right: 29px ;
+    margin-bottom: 12px;
+}
+
+
+
+
+.unaA
+{
+    
+    margin-top: -70px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+
+    padding-top: 40px;
+    position: absolute;
+
+}
+#tresA
+{
+    
+   float: right;
+   position: relative;
+   
+}
+.tresB
+{
+    
+
+    padding-bottom:60px ;
+    padding-top: 60px;
+    background: white;
+    margin-bottom: 20px;
+    margin-right:800px;
+     text-align: left;
+   
+    
+}
+#cuatroA
+{
+
+    
+    float: left ;
+    margin-top: 20px;
+    position: absolute;
+    
+}
+
+.cuatroB
+{
+    
+    padding-left:  60px;
+    padding-right: 60px;
+    padding-bottom:60px ;
+    padding-top: 60px;
+
+   background: white;
+    margin-left:800px;
+    text-align: right;
+    
+}
+.tres
+{
+    padding-bottom: 10px;
+ background:white;
+ margin-left: 29px;
+    margin-right: 29px ;
+
+
+}
+.un
+{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+    margin-left:-50px;
+    margin-right: -50px;
+    background-color:  #f7e2ae;;
+}
+
+
+.cont
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    float: left;
+    margin-left: 18px;
+    
+}
+
+.cont figure
+{
+    position: relative;
+
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0,0.50);
+
+
+}
+
+.cont figure img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.cont figure .capa
+{
+    position: absolute;
+    top:0;
+     height: 300px;
+     width: 300px;
+      background-color: rgba(11, 103, 123,0.6);
+      transition: all 500ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+
+
+
+}
+
+.cont  figure:hover>.capa
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont  figure:hover>.capa h3
+{
+    margin-top:70px ;
+    margin-bottom: 15px;
+}
+
+.cont  figure.capa h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.cont  figure.capa p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100px;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
+.cont1
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-left: 6px;
+}
+
+.cont1 figure
+{
+    position: relative;
+
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0,0.50);
+
+
+}
+
+.cont1 figure img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.cont1 figure .capa1
+{
+    position: absolute;
+    top:0;
+     height: 300px;
+     width: 300px;
+      background-color: rgba(11, 103, 123,0.6);
+      transition: all 500ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+
+
+
+}
+
+.cont1  figure:hover>.capa1
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont1  figure:hover>.capa h3
+{
+    margin-top:70px ;
+    margin-bottom: 15px;
+}
+
+.cont1  figure.capa h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.cont1  figure.capa1 p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100px;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+.cont2
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cont2 figure
+{
+    position: relative;
+
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0,0.50);
+
+
+}
+
+.cont2 figure img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.cont2 figure .capa2
+{
+    position: absolute;
+    top:0;
+     height: 300px;
+     width: 300px;
+      background-color: rgba(11, 103, 123,0.6);
+      transition: all 500ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+
+
+
+}
+
+.cont2  figure:hover>.capa2
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont2  figure:hover>.capa2 h3
+{
+    margin-top:70px ;
+    margin-bottom: 15px;
+}
+
+.cont2  figure.capa2 h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.cont2  figure.capa2 p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100px;
+    max-width: 220px;
+    margin: auto;
+}
+
+.seis
+{
+    
+    background-color:white;
+    margin-right:28px ;
+    margin-left: 28px;
+}
+
+.ctn-lbl-comentar
+{
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.lbl-comentar
+{
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow: 1px 2px 1px rgb(29, 56, 241);
+}
+
+
+
+
+
+
+
+

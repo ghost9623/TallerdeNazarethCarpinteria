@@ -1,0 +1,558 @@
+
+*{
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px ;
+   text-align: center;    
+
+}
+
+.uno
+{
+   border: 1px solid black;
+   background: #f7d88f;
+  
+   color: black;
+   text-align: left;
+}
+.dos li 
+{
+    list-style: none;
+    padding: 4px;
+    font: bold 13px verdana;
+   
+    display: inline-block;
+}
+
+a
+{
+    color: white;
+}
+
+.dos{
+    background:  #2f3640;
+    padding: 10px;
+    text-align: left;
+}
+h1{
+ font-family: arial;   
+}
+
+.zero
+{
+    border: 1px solid black;
+}
+.tres
+{
+    margin: 20px;
+    width: 60%;
+    
+    float: left;
+ 
+}
+section article 
+{
+border: 1px solid black;
+}
+
+article
+{
+    background: #dfe6e9;
+    border:1px solid white ;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.cuatro
+{
+
+    
+    width: 20%;
+   
+    float: right;
+    
+    margin-right: 20px;
+}
+
+.pie
+{       text-align: center;
+    background: #aaa69d;
+    padding: 10px;
+    clear: both;
+    background-color: #aaa69d;
+    float:center;
+    margin-left: 29px;
+    margin-right: 29px ;
+    margin-bottom: 12px;
+}
+
+img
+{
+    
+}
+.unaC
+{
+   
+    padding-left:  2px;
+    padding-right: 2px;
+    margin-left:   150px;
+    margin-right:  5px;
+    margin-top: -110px;
+}
+
+.unaA
+{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    
+
+}
+
+.cont
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    float: right;
+    
+
+    margin-right: 40px;
+    margin-left: 100px;
+    
+}
+
+.cont figure
+{
+    position: relative;
+    margin-top: 30px;
+    
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0,0.50);
+
+
+}
+
+.cont figure img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.cont figure .capa
+{
+    position: absolute;
+    top:0;
+     height: 300px;
+     width: 300px;
+      background-color: rgba(11, 103, 123,0.6);
+      transition: all 500ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+
+
+
+}
+
+.cont  figure:hover>.capa
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont  figure:hover>.capa h3
+{
+    margin-top:70px ;
+    margin-bottom: 15px;
+}
+
+.cont  figure.capa h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.cont  figure.capa p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100px;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+
+.cont1
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding-right: 30px;
+
+}
+
+.cont1 figure
+{   
+    position: relative;
+    margin-left: right 40px ;
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0,0.50);
+
+
+}
+
+.cont1 figure img
+{
+    border: 2px black solid;
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    padding-left: -60px;
+}
+
+.cont1 figure .capa1
+{
+    border: 2px black solid;
+    position: absolute;
+    top:0;
+     height: 300px;
+     width: 300px;
+      background-color: rgba(11, 103, 123,0.6);
+      transition: all 500ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+
+
+
+}
+
+.cont1  figure:hover>.capa1
+{
+    border: 2px black solid;
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont1  figure:hover>.capa h3
+{
+    border: 2px black solid;
+    margin-top:70px ;
+    margin-bottom: 15px;
+}
+
+.cont1  figure.capa h3
+{
+    border: 2px black solid;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.cont1  figure.capa1 p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100px;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+.cont2
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 20px;
+    
+    
+}
+
+.cont2 figure
+{
+    position: relative;
+
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0,0.50);
+
+
+}
+
+.cont2 figure img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.cont2 figure .capa2
+{
+    position: absolute;
+    top:0;
+     height: 300px;
+     width: 300px;
+      background-color: rgba(11, 103, 123,0.6);
+      transition: all 500ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+
+
+
+}
+
+.cont2  figure:hover>.capa2
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont2  figure:hover>.capa2 h3
+{
+    margin-top:70px ;
+    margin-bottom: 15px;
+}
+
+.cont2  figure.capa2 h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.cont2  figure.capa2 p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100px;
+    max-width: 220px;
+    margin: auto;
+}
+
+.seis
+{
+    
+    background-color:#f7e2ae;
+    margin-right:28px ;
+    margin-left: 28px;
+}
+
+.g
+{
+
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+margin-left: -80px;
+margin-right: 0px;
+font-size:20px
+}
+.h
+{
+   margin-left: -40px;
+   margin-right:140px;
+   
+  
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.op{
+    margin-left: -40px;
+    margin-right:-123px;
+}
+.principal
+{
+    width: 80%;
+    height: auto;overflow: hidden;
+    border:1px solid black;
+    margin: 10px auto;
+
+}
+.publicaciones
+{
+    width: 70%;
+    height: auto;overflow: hidden;
+    border: 0px solid;
+    margin-top: 10px auto;
+    float: left;
+}
+.post
+{
+    width: 96%;
+    height: auto;overflow: hidden;
+    padding: 7px;
+    background :white;
+    border-left-style:solid ;
+    border-left-width: 5px;
+    border-left-color: #0489B1;
+    border-radius:10px;
+    box-shadow:0px 0px 15px #ccc;
+
+    margin-bottom: 25px;
+
+
+}
+.enlace-post
+{
+text-decoration:none ;
+}
+
+.publicaciones a .titulo-post
+{
+color: #6e6e6e;
+font-size: 22px;
+font-family: 'calibri light';
+}
+.publicaciones a .titulo-post:hover
+{
+    text-decoration: underline;
+}
+
+.publicaciones .img-post
+{width: 150px;
+
+    height: 100px;
+    float: left;
+    margin-top:7px 7px 7px;
+    padding: 5px;
+    border :1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.publicaciones .datos-publicaciones
+{
+    font-family: "calibri light ";
+    color:#0489B1;
+
+
+
+
+}
+
+.publicaciones .parrafo-post
+{
+    font-family: 'calibri light';
+    font-size: 16px;
+    color:black;
+    padding: 5px;
+}
+
+.publicaciones .leer-mas
+{
+    background:#0489B1;
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius:5px ;
+
+
+
+}
+
+.publicaciones .leer-mas:hover
+{
+    background:#fff;
+    color:#0489B1;
+   
+
+}
+
+.publicaciones .enlace-paginacion
+{
+    text-decoration: none;
+    color: grey;
+}
+
+.publicaciones .enlace-paginacion:hover
+{
+    text-decoration: underline;
+}
+
+.sidebar
+{
+float: right;
+width: 25%;
+border: 0px solid black;
+height: auto;overflow: hidden;
+margin-right: 20px;
+margin-top:20px ;
+}
+
+.categorias, .amigos
+{
+    border-radius: 10px;
+    width: 98%;
+    border:1px solid #ccc;
+    height: auto;overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.encabezado-sidebar
+{
+    width: 100%;
+    height: 35px;
+    background: #0489b1;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: 'calibri light';
+    border-radius: 20px;
+}
+.enlace-sidebar
+{
+    display: block;
+    text-align: left;
+    margin-bottom: 100px;
+    width: 100%;
+    border-bottom:1px solid #ccc ;
+    text-decoration: none;
+    padding: 10px 5px;
+    color: #848484;
+
+
+}
+
+.enlace-sidebar:hover
+{
+    background:#f2f2f2;
+}
+
+
+
+
+
+
+
+
