@@ -1,0 +1,31 @@
+body
+{
+  
+  background-color: black;
+}
+h1
+{
+   color: white;
+}
+#uno
+{
+    text-align: justify;
+	text-decoration: none;
+	width: 600px;
+    margin: auto;
+    border: 1px solid blue;
+    font-size:20px;
+    font-family: arial;
+    background-color: white; 
+    color :black;
+    
+}
+#uno
+{
+    border-bottom: solid 6px #C0C0C0;
+	padding: 6px
+}
+footer
+{
+    color: white;
+}

@@ -11,7 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="javascript/funciones.js"></script> 
-    <title>sugerencia</title>
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/taller nazareth.ico" />  
+    <title>Sugerencia</title>
 </head>
 <body>
 
@@ -35,7 +36,7 @@
                   <a class="nav-link" href="historia.html">Historia</a>
                 </li>
                 <li class="nav-item">
-                      <a class="nav-link" href="noticias.php">Noticias</a>
+                      <a class="nav-link" href="noticias.php">Avisos</a>
                     </li>
                 <li class="nav-item">
                   <a class="nav-link" href="sugerencias.php">Escribenos</a>
@@ -44,6 +45,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="servicios.html">Servicios</a>
                 </li>
+                <li class="nav-item">
+              <a class="nav-link" href="login.html">Empleados</a>
+            </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Productos
@@ -132,20 +136,15 @@
            
            <h2 class="encabezado-sidebar">Categorias</h2>
            <section class="categorias">
-            <a href="" class="enlace-sidebar">pagina 1</a>
-            <a href=""class="enlace-sidebar">pagina 2</a>
-            <a href="" class="enlace-sidebar">pagina 3</a>
+           <a href="Sillas.php" class="enlace-sidebar">Sillas</a>
+        <a href="Mesas.php"class="enlace-sidebar">Mesas</a>
+        <a href="Otros.php" class="enlace-sidebar">Otros productos</a>
            </section>
-
+     
        
-   
-           <h2 class="encabezado-sidebar">Sitios Amigos</h2>
-            <section class="amigos">
-            <a href=""class="enlace-sidebar">pagina 1</a>
-            <a href="" class="enlace-sidebar">pagina 2</a>
-            <a href="" class="enlace-sidebar">pagina 3</a>
-           </section>
-
+     
+           
+     
        </section>
     <footer class="pie  rounded">
     <p>Taller nazareth carpinteria 2020 © Todos los Derechos Reservados</p>
